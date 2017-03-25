@@ -35,6 +35,15 @@ File: Layout CSS
 	*/
 	
 	}
+#header #logo h2{
+	margin:0; padding:0; font-size:30px;
+	color: green;
+	/*
+	border: 5px solid red;
+    border-radius: 10px;
+	*/
+	
+	}
 
 
 
@@ -243,11 +252,18 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
+/*
 body{
 	
 	color:#CBCBCB; background-color:#191919;
 	cursor: url(../../images/nagpur/mouse/slice-30-30.png), auto;
 }
+*/
+body{
+	background-color: #DAF7A6;
+	cursor: url(../../images/nagpur/mouse/slice-30-30.png), auto;
+}
+
 a{color:#CF4845;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -394,3 +410,23 @@ table a, #comments a{background-color:inherit;}
 div.drop_props{
 	color: brown;
 }
+div.food_menu{
+	background-color:  #DAF7A6  ;
+	height: 300px;
+}
+div.food_text_color{
+	color: green;
+	font-weight: bold;
+}
+ul.noBullets{
+	list-style-type: none;
+}
+li.restaurant-names{
+  margin: 25px 0;
+}
+div.custom-height{
+	color: crimson;
+	background-color:  orange  ;
+	height: 50px;
+	text-align: center;
+}	
